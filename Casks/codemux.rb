@@ -1,13 +1,13 @@
 cask "codemux" do
-  version "1.4.0"
+  version "1.4.1"
 
   on_arm do
-    sha256 "9b77ae18be2eace29fdf89773365bf1dc35e11d66114d1976d6ba87f292c9969"
+    sha256 "56b399508cffb29d476455a3c3a92ef5a342d9529467335db1301417d55d378d"
     url "https://github.com/realDuang/codemux/releases/download/v#{version}/CodeMux-#{version}-arm64-mac.zip"
   end
 
   on_intel do
-    sha256 "c03a7913e4fb2fae58c183f385abdb2bfec8b99219a43776122df60c75083b02"
+    sha256 "76832647b86ff539edcb37ad01ac5de690c5ade49354e8905c079e00cff16cff"
     url "https://github.com/realDuang/codemux/releases/download/v#{version}/CodeMux-#{version}-mac.zip"
   end
 
